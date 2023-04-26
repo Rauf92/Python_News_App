@@ -17,6 +17,8 @@ def get_news_details(index, topic):
     print(data["articles"][index]["content"])
 
 
+
+
 if __name__ == "__main__":
     topic_input = input("Please write your topic of interest and the app will provide the list of all available news: ")
     get_news_title(topic_input)
